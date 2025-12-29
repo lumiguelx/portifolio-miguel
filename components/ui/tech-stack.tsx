@@ -20,7 +20,7 @@ type TechStackProps = {
   technologies: Technology[]
 }
 
-const TECH_ICONS: Record<string, JSX.Element> = {
+const TECH_ICONS: Record<string, React.ReactElement> = {
   javascript: <SiJavascript className="h-8 w-8 text-yellow-500" />,
   typescript: <SiTypescript className="h-8 w-8 text-blue-500" />,
   python: <SiPython className="h-8 w-8 text-green-500" />,
