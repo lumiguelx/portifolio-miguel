@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     default: 'Luis Miguel - Portfólio',
     template: '%s | Luis Miguel'
   },
-  description: 'Estudante de Ciência da Computação apaixonado por jogos, desenvolvimento web e soluções tecnológicas inovadoras. Extrovertido Antissocial criando código que importa.',
+  description: 'Estudante de Ciência da Computação (FMU) no 5º semestre, apaixonado por criar soluções inovadoras na interseção entre tecnologia e criatividade. Busco minha primeira oportunidade na área.',
 };
 
 const geist = Geist({

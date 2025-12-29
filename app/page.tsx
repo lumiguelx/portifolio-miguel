@@ -98,19 +98,12 @@ export default function Personal() {
       >
         <div className="flex-1">
           <p className="text-zinc-600 dark:text-zinc-400">
-            Estudante de Ciência da Computação apaixonado por criar soluções inovadoras 
-            através do código. Focado em jogos, desenvolvimento web e explorando a 
-            interseção entre tecnologia e criatividade.
+            Estudante de Ciência da Computação (FMU) no 5º semestre, apaixonado por criar 
+            soluções inovadoras na interseção entre tecnologia e criatividade. Busco minha 
+            primeira oportunidade na área, com um stack que inclui JavaScript, TypeScript, 
+            Python, React, Flutter, Flask e PostgreSQL.
           </p>
         </div>
-      </motion.section>
-
-      <motion.section
-        variants={VARIANTS_SECTION}
-        transition={TRANSITION_SECTION}
-      >
-        <h3 className="mb-5 text-lg font-medium">Tecnologias</h3>
-        <TechStack technologies={TECHNOLOGIES} />
       </motion.section>
 
       <motion.section
@@ -155,6 +148,14 @@ export default function Personal() {
             </div>
           ))}
         </div>
+      </motion.section>
+
+      <motion.section
+        variants={VARIANTS_SECTION}
+        transition={TRANSITION_SECTION}
+      >
+        <h3 className="mb-5 text-lg font-medium">Tecnologias</h3>
+        <TechStack technologies={TECHNOLOGIES} />
       </motion.section>
     </motion.main>
   )
