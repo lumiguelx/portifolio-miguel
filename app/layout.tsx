@@ -12,15 +12,15 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://nim-fawn.vercel.app/'),
+  metadataBase: new URL('https://luis-miguel-portfolio.vercel.app/'),
   alternates: {
     canonical: '/'
   },
   title: {
-    default: 'Nim - Personal website template',
-    template: '%s | Nim'
+    default: 'Luis Miguel - Portfólio',
+    template: '%s | Luis Miguel'
   },
-  description:  'Nim is a free and open-source personal website template built with Next.js 15, React 19 and Motion-Primitives.',
+  description: 'Estudante de Ciência da Computação apaixonado por jogos, desenvolvimento web e soluções tecnológicas inovadoras. Extrovertido Antissocial criando código que importa.',
 };
 
 const geist = Geist({
